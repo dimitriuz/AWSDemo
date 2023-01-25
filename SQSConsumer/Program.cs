@@ -14,7 +14,8 @@ namespace SQSConsumer
             var receiveMessageRequest = new ReceiveMessageRequest
             {
                 QueueUrl = queueUrlResponse.QueueUrl,
-                AttributeNames = new List<string> { "All" }
+                AttributeNames = new List<string> { "All" },
+                MessageAttributeNames= new List<string> { "All" }
             };
 
             var cts = new CancellationTokenSource();
