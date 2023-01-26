@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "Customers.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Consumer", "Customers.Consumer\Customers.Consumer.csproj", "{F10CAD94-4BC1-4793-A62D-0841DE08E324}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQS", "SQS", "{1090C06E-A034-4C54-A040-0A3EE249A71F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SNS", "SNS", "{93B3EFBE-5BA6-4A6A-8874-FE23FB8FF03D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +40,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E143EA7-D94F-4333-BA55-D66A7D68815C} = {1090C06E-A034-4C54-A040-0A3EE249A71F}
+		{9E6EF785-2AA5-4ED8-9AB6-140A3D10A48F} = {1090C06E-A034-4C54-A040-0A3EE249A71F}
+		{BEAC890C-726F-474B-A8C5-15FF64318BF5} = {1090C06E-A034-4C54-A040-0A3EE249A71F}
+		{F10CAD94-4BC1-4793-A62D-0841DE08E324} = {1090C06E-A034-4C54-A040-0A3EE249A71F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B4B42D0-77A3-4F73-8067-07152B6AD193}
