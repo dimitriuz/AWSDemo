@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqsConsumer", "SNS\SqsSnsCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "SNS\Customers.Api\Customers.Api.csproj", "{1C1C2764-B719-4ADB-B33C-79B5A2D31960}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "DynamoDB\Customers.Api\Customers.Api.csproj", "{623C2C50-1BA0-4944-9A8E-BAFB623873B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamoDb", "DynamoDb", "{A8BF0155-3D34-4D28-9F5B-F008142177F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,10 @@ Global
 		{1C1C2764-B719-4ADB-B33C-79B5A2D31960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C1C2764-B719-4ADB-B33C-79B5A2D31960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C1C2764-B719-4ADB-B33C-79B5A2D31960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623C2C50-1BA0-4944-9A8E-BAFB623873B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623C2C50-1BA0-4944-9A8E-BAFB623873B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623C2C50-1BA0-4944-9A8E-BAFB623873B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623C2C50-1BA0-4944-9A8E-BAFB623873B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,7 @@ Global
 		{E976AC1D-CD84-4E99-B423-3AB538F41C9F} = {93B3EFBE-5BA6-4A6A-8874-FE23FB8FF03D}
 		{7C93D5DE-7C87-4897-815F-158FAE6F5DD6} = {93B3EFBE-5BA6-4A6A-8874-FE23FB8FF03D}
 		{1C1C2764-B719-4ADB-B33C-79B5A2D31960} = {93B3EFBE-5BA6-4A6A-8874-FE23FB8FF03D}
+		{623C2C50-1BA0-4944-9A8E-BAFB623873B5} = {A8BF0155-3D34-4D28-9F5B-F008142177F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B4B42D0-77A3-4F73-8067-07152B6AD193}
