@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "S3", "S3", "{C2CFA977-DD62-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Playground", "S3\S3Playground\S3Playground.csproj", "{2183DE72-D6D7-4CB2-A602-C98816C386A2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "S3\Customers.Api\Customers.Api.csproj", "{CC5EC8DA-3548-4337-ACE2-8859270C17A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{2183DE72-D6D7-4CB2-A602-C98816C386A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2183DE72-D6D7-4CB2-A602-C98816C386A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2183DE72-D6D7-4CB2-A602-C98816C386A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5EC8DA-3548-4337-ACE2-8859270C17A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5EC8DA-3548-4337-ACE2-8859270C17A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5EC8DA-3548-4337-ACE2-8859270C17A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5EC8DA-3548-4337-ACE2-8859270C17A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{623C2C50-1BA0-4944-9A8E-BAFB623873B5} = {A8BF0155-3D34-4D28-9F5B-F008142177F7}
 		{413401C8-2FF9-4D3A-8622-DD19C2C53174} = {A8BF0155-3D34-4D28-9F5B-F008142177F7}
 		{2183DE72-D6D7-4CB2-A602-C98816C386A2} = {C2CFA977-DD62-4A52-89CF-193D3B797D47}
+		{CC5EC8DA-3548-4337-ACE2-8859270C17A7} = {C2CFA977-DD62-4A52-89CF-193D3B797D47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B4B42D0-77A3-4F73-8067-07152B6AD193}
