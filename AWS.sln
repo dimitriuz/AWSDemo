@@ -33,6 +33,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S3Playground", "S3\S3Playgr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "S3\Customers.Api\Customers.Api.csproj", "{CC5EC8DA-3548-4337-ACE2-8859270C17A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecretsManager", "SecretsManager", "{FBB10D7B-ADE7-4C8A-87C2-7D6C965AABD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretsManager.App", "SecretsManager\SecretsManager.App\SecretsManager.App.csproj", "{61AB7DA1-3F77-4F1E-ACBC-49BA53F6300C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Api", "SecretsManager\Weather.Api\Weather.Api.csproj", "{93504E40-93B2-4A9C-8E09-F159A5E7314A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +89,14 @@ Global
 		{CC5EC8DA-3548-4337-ACE2-8859270C17A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC5EC8DA-3548-4337-ACE2-8859270C17A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC5EC8DA-3548-4337-ACE2-8859270C17A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61AB7DA1-3F77-4F1E-ACBC-49BA53F6300C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61AB7DA1-3F77-4F1E-ACBC-49BA53F6300C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61AB7DA1-3F77-4F1E-ACBC-49BA53F6300C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61AB7DA1-3F77-4F1E-ACBC-49BA53F6300C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93504E40-93B2-4A9C-8E09-F159A5E7314A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93504E40-93B2-4A9C-8E09-F159A5E7314A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93504E40-93B2-4A9C-8E09-F159A5E7314A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93504E40-93B2-4A9C-8E09-F159A5E7314A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +113,8 @@ Global
 		{413401C8-2FF9-4D3A-8622-DD19C2C53174} = {A8BF0155-3D34-4D28-9F5B-F008142177F7}
 		{2183DE72-D6D7-4CB2-A602-C98816C386A2} = {C2CFA977-DD62-4A52-89CF-193D3B797D47}
 		{CC5EC8DA-3548-4337-ACE2-8859270C17A7} = {C2CFA977-DD62-4A52-89CF-193D3B797D47}
+		{61AB7DA1-3F77-4F1E-ACBC-49BA53F6300C} = {FBB10D7B-ADE7-4C8A-87C2-7D6C965AABD2}
+		{93504E40-93B2-4A9C-8E09-F159A5E7314A} = {FBB10D7B-ADE7-4C8A-87C2-7D6C965AABD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9B4B42D0-77A3-4F73-8067-07152B6AD193}
