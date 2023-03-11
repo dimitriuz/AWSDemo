@@ -4,7 +4,7 @@ using Amazon.Lambda.Core;
 namespace SimpleLambda
 {
     //for deploy use - dotnet Lambda deploy-function SimpleLambda
-    //for invoke use - dotnet Lambda invoke-function SimpleLambda
+    //for invoke use - dotnet Lambda invoke-function SimpleLambda --payload "{""World"": ""C# from Console""}"
 
     public class Function
     {
