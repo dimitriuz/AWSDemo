@@ -7,6 +7,9 @@ namespace SimpleAPILambda
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            
+            //run in AWS Lambda
+            builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
